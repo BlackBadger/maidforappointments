@@ -28,8 +28,7 @@ $(function() {
 	});
 });
 
-	$(document).ready(function() {
-		
-		$('blockquote').quovolver();
-		
-	});
+$("#dropper").click(function(){
+	$("#drop").slideToggle();
+	$("#dropper").html("<i class='icon-chevron-up icon-white' id='iconSwitch'></i> Finish Now");
+});

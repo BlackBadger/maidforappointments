@@ -17,6 +17,10 @@
 	display: none;
 }
 
+#drop {
+	display: none;
+}
+
 .navBg {
 	height: 42px;
 	margin-bottom: 20px;
